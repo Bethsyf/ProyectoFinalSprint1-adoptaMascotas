@@ -6,8 +6,8 @@ export const showData = async (url)=>{
   const resp = await fetch(url);
   const data = await resp.json();
 
-  data.forEach(mascota => {
-    const {imagen, nombre, raza, id} = mascota;
+  data.forEach(element => {
+    const {imagen, nombre, raza, id} = element;
     pets.innerHTML += `
     <div class="card bg-transparent text-white"  id='${id}' >
             <img src=${imagen} id='${id}' class="card-img" alt="...">

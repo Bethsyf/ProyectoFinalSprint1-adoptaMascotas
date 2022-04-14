@@ -165,7 +165,9 @@
             "mR": "¡Hola! Nos gustaría conocer a Kity y ya luego decidir si la adoptamos",
             "mP": "¡Hola! Qué bueno que te interese adoptar. Programemos entonces para que vengan y la conozcan",
             "r1": "Perfecto, puede ser este sabado en la mañana",
-            "p1": "si, claro entonces ese día kity y yo los esperamos"            
+            "p1": "si, claro entonces ese día kity y yo los esperamos",   
+            "foto": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/juan-jesus_je3jjs.png",
+            "usuario": "Juan Jesus" 
         }
         
     ],

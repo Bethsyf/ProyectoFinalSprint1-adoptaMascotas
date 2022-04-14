@@ -1,7 +1,6 @@
-const detail = document.querySelector('.detail')
+const detail = document.getElementById('detail')
 
-const getLocalStorage = () => {
-    
+const getLocalStorage = () => {    
     const detalle = JSON.parse(localStorage.getItem("Detail"));
     console.log(detalle)
     const { nombre, historia, imagen, edad, raza, direccion, personalidad1, personalidad2, personalidad3, genero, usuario, imgusuario, id, categoria } = detalle;
@@ -74,3 +73,12 @@ const getLocalStorage = () => {
     </footer>
   `
 }
+
+document.addEventListener('DOMContentLoaded', getLocalStorage )
+
+listar.addEventListener('click', (e)=>{
+  console.log(e)
+  if (e.target.classList.contains('btnBack')){
+      window.location.href="home.html"
+  }
+})
