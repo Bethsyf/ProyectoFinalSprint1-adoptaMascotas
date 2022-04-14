@@ -1,0 +1,144 @@
+:root {   
+    --pink: #FEC7D7;
+    --purple: #A786DF;
+    --softPurple: #D9D4E7;
+    --Aquamarine: #85D1CE;
+    --blue: #91C1D7;
+    --white: #FFFFFE;
+    --black:#0E172C;
+    --gray:#535353;
+}
+
+body{
+    background-color: var(--pink);
+    width: 95%;
+    margin: auto;    
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: var(--pink);        
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+    }
+}
+
+#img1{
+    display: none;
+    margin-left: 50%;
+    margin-top: 70%;
+}
+
+#img2{
+    display: none;
+    margin-left: 35%;
+    margin-top: 55%;
+}
+
+.link-logo{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.cont-index{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.cont-index2{
+    padding: 30px;
+}
+
+.img-index{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.btn-index{
+    display: flex;
+    margin: auto;
+    background-color: var(--black);
+    border-radius: 20px;
+    padding: 10px 130px;
+    color: var(--white);
+}
+
+.cont-index2{
+    padding: 50px;
+}
+
+.div-btn{
+    padding: 15px;
+}
+ 
+header{
+    margin: auto;
+    text-align: left;
+}
+
+h1{
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+h2{
+    margin-left: 5%;
+}
+
+.cont-btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.cate-btn{
+    background-color: var(--black);
+    width: 150px;
+    height: 85px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    border-radius: 10%;
+    color: var(--white);
+    align-items: center;
+    border: none;
+}
+
+.cate-btn:hover{
+    opacity: 1;
+}
+
+footer{
+background-color: var(--white);
+height: 10vh;
+display: flex;
+justify-content:space-evenly;
+align-items: end;
+color: var(--white);
+width: 100%;
+margin-top: 90%;
+}
+
+footer a{
+color: var(--white);
+text-decoration: none;
+padding: 0.25rem 1rem;
+text-align: center;
+font-family: 'Nunito', sans-serif ;
+}
+
+a:visited , a:focus , a:active, a:link{
+color: var(--white);
+}
+
+a.logo-selected {
+background-color: var(--black);
+border-radius: 20px;
+color: var(--softAquamarine);
+}
