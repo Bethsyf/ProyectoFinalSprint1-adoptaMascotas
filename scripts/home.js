@@ -3,7 +3,7 @@ import { showData } from "./showData.js"
 
 let btnDog = document.getElementById('btn-cate-dog');
 let btnCat = document.getElementById('btn-cate-cat');
-const listarCard = document.getElementById('listCard');
+const listarCard = document.getElementById('listarCard');
 
 const url = "https://mascotas-api.herokuapp.com/"
 const urlDogs = "https://mascotas-api.herokuapp.com/dogs"
@@ -19,23 +19,26 @@ btnCat.addEventListener('click', () => {
 })
 
 listarCard.addEventListener('click', async(e) => {
-    console.log(listarCard)    
-    const idC = e.target.id   
+    const dog = e.target.classList.contains('perro');
+    const cat = e.target.classList.contains('gato');
+    const idC = e.target.offsetParent.id   
     
-    if(idC){       
-        const data = await getData(url);
-        const detailPets = data.find(item => item.id == Number(idC))
-        console.log(detailPets)
-        localStorage.setItem("Detail", JSON.stringify(detailPets));
+    if(dog){       
+        console.log('perro')
+        const data = await getData(urlDogs);
+        const dog = data.find(dog => dog.id == Number(idC))
+        console.log(dog)
+        localStorage.setItem("Detail", JSON.stringify(dog));
         window.location.href= "details.html"
     }
 
-    // if(cat){       
-    //     const data = await getData(urlCats);
-    //     const cat = data.find(item => item.id == Number(idC))
-    //     console.log(objeto)
-    //     localStorage.setItem("Detail", JSON.stringify(cat));
-    //     window.location.href= "details.html"
-    // }
+    if(cat){       
+        console.log('gato')
+        const data = await getData(urlCats);
+        const cat = data.find(cat => cat.id == Number(idC))
+        console.log(cat)
+        localStorage.setItem("Detail", JSON.stringify(cat));
+        window.location.href= "details.html"
+    }
     
 })
