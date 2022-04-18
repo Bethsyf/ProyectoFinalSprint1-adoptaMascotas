@@ -6,7 +6,7 @@ const getLocalStorage = () => {
 
   detail.innerHTML += `
     <header>
-      <a class="btnBack" href="./home.html"><img src="../images/back.png" alt="back"></a>
+      <a class="btnBack" href="./home.html"><img src="./images/back.png" alt="back"></a>
       <img src="${imagen}" class="imgPrincipal" alt="imagen">
     </header>
     <main id="detailsMain">
