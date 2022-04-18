@@ -17,7 +17,7 @@ const getLocalStorage = () => {
               <img class="gender d-flex mx-auto" src="${genero}" alt="img-genero">
           </div>          
           <div
-           class="circleLike detailLike" ><img src="../images/not-save.png" alt="not-save"></div>
+           class="circleLike detailLike" ><img src="https://res.cloudinary.com/dmaviub4l/image/upload/v1650071397/not-save_jjehug.png" alt="not-save"></div>
       </div>
       <div class="container d-flex justify-content-evenly py-3">
         <div>
@@ -30,7 +30,7 @@ const getLocalStorage = () => {
         </div>
       </div>
       <div class="d-flex justify-content-start">
-        <img src="../images/location.png" class="ubicacion" alt="logo-ubicacion">
+        <img src="https://res.cloudinary.com/dmaviub4l/image/upload/v1650071397/location_cge0ka.png" class="ubicacion" alt="logo-ubicacion">
         <p class="address">${direccion}</p>
       </div>
         <h2 class="titlePersonalidad">Personalidad</h2>
@@ -38,15 +38,15 @@ const getLocalStorage = () => {
     <section class="container-fluid contPersonalidad">
       <div class="row conPersonality">
         <div class="col-auto boxPerso">
-        <img src="../images/hearts.png" class="imgPerso" alt="personalidad">
+        <img src="https://res.cloudinary.com/dmaviub4l/image/upload/v1650071397/hearts_snebqd.png" class="imgPerso" alt="personalidad">
             <p class="textPerso">${personalidad1}</p>
         </div>
         <div class="col-auto boxPerso">
-        <img src="../images/restless.png" class="imgPerso" alt="personalidad">
+        <img src="https://res.cloudinary.com/dmaviub4l/image/upload/v1650071397/restless_oa2h7t.png" class="imgPerso" alt="personalidad">
             <p class="textPerso">${personalidad2}</p>
         </div>
         <div class="col-auto boxPerso">
-        <img src="../images/ball.png" class="imgPerso" alt="personalidad">
+        <img src="https://res.cloudinary.com/dmaviub4l/image/upload/v1650071396/ball_qwcira.png" class="imgPerso" alt="personalidad">
             <p class="textPerso">${personalidad3}</p>
         </div>
       </div>
@@ -59,7 +59,7 @@ const getLocalStorage = () => {
   <footer>
       <ul class="nav detailNav justify-content-left">
         <li class="nav-item">
-            <img src="../images/maria-dolores2.png" class="userImgDetails" alt="imguser">
+            <img src="https://res.cloudinary.com/dmaviub4l/image/upload/v1650280275/maria-dolores2_viutcb.png" class="userImgDetails" alt="imguser">
         </li>
         <li class="nav-item">
             <h5 class='subUserDet'>Publicado por</h5>
