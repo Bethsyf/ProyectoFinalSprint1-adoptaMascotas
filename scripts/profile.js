@@ -12,7 +12,7 @@ const showUser = async () => {
         const { imagen, nombre, apellido} = element;
         user1.innerHTML += `
         <div class="col-12">
-            <img src="${imagen}" class="profileFoto" alt="">
+            <img src="../images/juan-mendez.png" class="profileFoto" alt="juan">
         </div>
         <div class="col-12 Text">
             <h5 class="profileNombre">${nombre} ${apellido}</h5>

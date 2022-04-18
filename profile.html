@@ -34,26 +34,20 @@
     <div>
         <form class="row g-3" id="formularioPerfil">
             <div class="col-md-6 mx-auto" >
-              <label for="name" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                <img class="profileFoto" src="../images/juan-mendez.png" class="profileFoto" alt="juan">
+                <p class="profileNombre" >Juan Méndez</p>
+              <label for="name" class="form-label">Nombre</label><br>
+              <input type="text"  id="inputName" placeholder="Juan">
             </div>
             <div class="col-md-6 mx-auto">
-              <label for="lastName" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="inputLastName" placeholder="Apellido">
+              <label for="lastName" class="form-label">Apellido</label><br>
+              <input type="text"  id="inputLastName" placeholder="Méndez">
             </div>
             <div class="col-md-6 mx-auto">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="email">
+              <label for="email" class="form-label">Correo</label><br>
+              <input type="email"  id="inputEmail" placeholder="Juan.mendez@gmail.com">
             </div>
-            <div class="col-md-6 mx-auto">
-              <label for="image" class="form-label">Foto perfil</label>
-              <input id="inputImagen" type="text" class="form-control " placeholder="imagen" name="img" required/>
-            </div>  
-
-            <div class="col-md-6 mx-auto">
-            <input id="Id" type="text" class="form-control mt-2" name="id" autoComplete="off"/>
-            </div>
-
+            
             <button type="submit" class="enviarProfile">Guardar</button>
         </form>
     </div>
@@ -67,7 +61,7 @@
         <a class="selection" href="./profile.html"><img src="./images/perfil2.png" alt="perfil"> Perfil</a>
     </footer>
 
-    <script src="./scripts/profile.js" type="module"></script>
+    
 </body>
 
 </html>
