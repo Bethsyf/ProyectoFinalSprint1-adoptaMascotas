@@ -1,31 +1,31 @@
 const detail = document.getElementById('detail')
 
-const getLocalStorage = () => {    
-    const detalle = JSON.parse(localStorage.getItem("Detail"));  
-    const { nombre, historia, imagen, edad, raza, direccion, personalidad1, personalidad2, personalidad3, genero, usuario, imgusuario, id, categoria } = detalle;
-    
-    detail.innerHTML +=  `
+const getLocalStorage = () => {
+  const detalle = JSON.parse(localStorage.getItem("Detail"));
+  const { nombre, historia, imagen, edad, raza, direccion, personalidad1, personalidad2, personalidad3, genero, usuario, imgusuario, id, categoria } = detalle;
+
+  detail.innerHTML += `
     <header>
-      <a href="./home.html"><button class="btnBack"><img src="./images/back.png" alt="back"></button></a>
+      <a class="btnBack" href="./home.html"><img src="../images/back.png" alt="back"></a>
       <img src="${imagen}" class="imgPrincipal" alt="imagen">
     </header>
     <main id="detailsMain">
       <div class="container">
         <div class="d-flex justify-content-between primerP">
           <div class="d-flex justify-content-start">
-              <p class="nameDetail">${nombre}</p>
-              <div class="gender ${genero} d-flex mx-auto"></div>
-          </div>
-          
-          <div  class="circleLike detailLike"> </div>
+              <h1 class="me-3">${nombre}</h1>
+              <img class="gender d-flex mx-auto" src="${genero}" alt="img-genero">
+          </div>          
+          <div
+           class="circleLike detailLike" ><img src="../images/not-save.png" alt="not-save"></div>
       </div>
-      <div class="container d-flex justify-content-evenly">
+      <div class="container d-flex justify-content-evenly py-3">
         <div>
-            <img src="../images/race.png" alt="raza">
+            <img src="https://res.cloudinary.com/dmaviub4l/image/upload/v1650071398/race_kiqr56.png" alt="raza">
             <div class="d-inline p-2 raceAgeDetail" id='race'>${raza}</div>
         </div>
         <div>
-            <img src="../images/age.png" alt="edad">
+            <img src="https://res.cloudinary.com/dmaviub4l/image/upload/v1650071397/age_gdon6i.png" alt="edad">
             <div class="d-inline p-2 raceAgeDetail">${edad}</div>
         </div>
       </div>
@@ -38,15 +38,15 @@ const getLocalStorage = () => {
     <section class="container-fluid contPersonalidad">
       <div class="row conPersonality">
         <div class="col-auto boxPerso">
-            
+        <img src="../images/hearts.png" class="imgPerso" alt="personalidad">
             <p class="textPerso">${personalidad1}</p>
         </div>
         <div class="col-auto boxPerso">
-            
+        <img src="../images/restless.png" class="imgPerso" alt="personalidad">
             <p class="textPerso">${personalidad2}</p>
         </div>
         <div class="col-auto boxPerso">
-            
+        <img src="../images/ball.png" class="imgPerso" alt="personalidad">
             <p class="textPerso">${personalidad3}</p>
         </div>
       </div>
@@ -59,25 +59,61 @@ const getLocalStorage = () => {
   <footer>
       <ul class="nav detailNav justify-content-left">
         <li class="nav-item">
-            <img src="${imgusuario}" class="userImgDetails" alt="">
+            <img src="../images/maria-dolores2.png" class="userImgDetails" alt="imguser">
         </li>
         <li class="nav-item">
             <h5 class='subUserDet'>Publicado por</h5>
             <h6 class='UserDet'>${usuario}</h6>
         </li>
         <li class="nav-item">
-            <a href="./chat-${categoria}.html"><button class="btnDetails" id="chatDog">Contactar</button></a>
+            <a href="./chat.html"><button class="btnDetails" id="chat">Contactar</button></a>
         </li>
       </ul>
     </footer>
   `
+
+  const btnLike = document.querySelector('.like');
+
+  btnLike.addEventListener('click', () => {
+    let likeNombre = nombre;
+    let likeImg = imagen;
+    let likeRaza = raza;
+    let likeId = id;
+    let likeCategoria = categoria;
+
+    let like = {
+      likeNombre,
+      likeImg,
+      likeRaza,
+      likeId,
+      likeCategoria
+
+    }
+
+    const key = JSON.parce(localStorage.getItem('Like'))
+
+    if (btnLike.classList.contains('circleLike')) {
+      console.log('like')
+      btnLike.classList.remove("circleLike");
+      btnLike.classList.add("circlePush");
+
+      if (key !== null) {
+        key.push(like)
+        localStorage.setItem('Like', JSON.stringify(key))
+      } else {
+        arrayLike.push(like);
+        localStorage.setItem('Like', JSON.stringify(arrayLike))
+      }
+
+    } else if (btnLike.classList.contains('circlePush')) {
+      btnLike.classList.remove("circlePush");
+      btnLike.classList.add("circleLike");
+      const cat = key.filter(categ => categ.likeCategory === 'cat')
+      const dog = key.filter(categ => categ.likeCategory === 'dog')
+
+    }
+  }
+  )
 }
 
-document.addEventListener('DOMContentLoaded', getLocalStorage )
-
-// listar.addEventListener('click', (e)=>{
-//   console.log(e)
-//   if (e.target.classList.contains('btnBack')){
-//       window.location.href="home.html"
-//   }
-// })
+document.addEventListener('DOMContentLoaded', getLocalStorage)

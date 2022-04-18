@@ -1,88 +1,86 @@
-{   
+{
     "dogs": [
-    {
-        "id": 1,
-        "nombre": "Chester",
-        "raza": "Golden Retriever",
-        "edad": "3 meses",        
-        "personalidad1": "inteligente",
-        "personalidad2": "confiable",
-        "personalidad3": "juguetón",
-        "historia": "Chester es un perro inteligente y divertido, perfecto para familias con niños ya que es muy confiable y transmite seguridad",
-        "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878719/dog-chester_kulvln.png",
-        "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899457/male_szqd9v.png",
-        "categoria": "perro",
-        "direccion": "Calle Real 45-98, Colombia 45654" ,
-        "usuario": "María Dolores",
-        "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/maria-dolores_tyqoar.png"
-    },
-    {
-        "id": 2,
-        "nombre": "Papi",
-        "raza": "Chihuahua",
-        "edad": "13 meses",        
-        "personalidad1": "alerta",
-        "personalidad2": "rapido",
-        "personalidad3": "valiente",
-        "historia": "Papi perdio a su dueña hace dos meses, ya que era una adulta mayor sin familiares, busca hogar amoroso y tranquilo",
-        "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878718/dog-papi_okkten.png",
-        "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899457/male_szqd9v.png",
-        "categoria": "perro",
-        "direccion": "Avenida Siempreviva 742, EEUU 55512" ,
-        "usuario": "Juan Jesus",
-        "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/juan-jesus_je3jjs.png"
-    },
-    {
-        "id": 3,
-        "nombre": "Rocky",
-        "raza": "Rottweiler",
-        "edad": "4 meses",        
-        "personalidad1": "cariñoso",            
-        "personalidad2": "inquieto",
-        "personalidad3": "juguetón",
-        "historia": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
-        "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878718/dog-rocky_psd692.png",
-        "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899457/male_szqd9v.png",
-        "categoria": "perro",
-        "direccion": "4140 Parker Rd. Allentown, New Mexico 31134" ,
-        "usuario": "María Dolores",
-        "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/maria-dolores_tyqoar.png"
-    },
-    {
-        "id": 4,
-        "nombre": "Pelusa",
-        "raza": "Bichón frisé",
-        "edad": "5 meses",        
-        "personalidad1": "alegre",
-        "personalidad2": "fiel",
-        "personalidad3": "cariñosa",
-        "historia": "Pelusa proviene de un hogar donde era maltrata por sus dueños y a pesar de eso no es nada violenta y le encantan jugar con niños",
-        "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878719/dog-pelusa_uuz4ek.png",
-        "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899464/female_lqzodc.png",
-        "categoria": "perro",
-        "direccion": "221B Baker Street, EEUU 55512" ,
-        "usuario": "Juan Jesus",
-        "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/juan-jesus_je3jjs.png"
-    },
-    {
-        "id": 5,
-        "nombre": "Charlie",
-        "raza": "Chihuahua",
-        "edad": "7 meses",        
-        "personalidad1": "inteligente",
-        "personalidad2": "confiable",
-        "personalidad3": "juguetón",
-        "historia": "Charlie es un alegre y le gusta mucho la compañia y jugar con otras mascotas",
-        "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878718/dog-charlie_jqlivm.png",
-        "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899457/male_szqd9v.png",
-        "categoria": "perro",
-        "direccion": "Calle Real 45-98, Colombia 45654" ,
-        "usuario": "María Dolores",
-        "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/maria-dolores_tyqoar.png"
-    }  
-    
+        {
+            "id": 1,
+            "nombre": "Chester",
+            "raza": "Golden Retriever",
+            "edad": "3 meses",
+            "personalidad1": "inteligente",
+            "personalidad2": "confiable",
+            "personalidad3": "juguetón",
+            "historia": "Chester es un perro inteligente y divertido, perfecto para familias con niños ya que es muy confiable y transmite seguridad",
+            "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878719/dog-chester_kulvln.png",
+            "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899457/male_szqd9v.png",
+            "categoria": "perro",
+            "direccion": "Calle Real 45-98, Colombia 45654",
+            "usuario": "María Dolores",
+            "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1650071689/Ellipse_9_3_jx7j7f.png"
+        },
+        {
+            "id": 2,
+            "nombre": "Papi",
+            "raza": "Chihuahua",
+            "edad": "13 meses",
+            "personalidad1": "alerta",
+            "personalidad2": "rapido",
+            "personalidad3": "valiente",
+            "historia": "Papi perdio a su dueña hace dos meses, ya que era una adulta mayor sin familiares, busca hogar amoroso y tranquilo",
+            "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878718/dog-papi_okkten.png",
+            "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899457/male_szqd9v.png",
+            "categoria": "perro",
+            "direccion": "Avenida Siempreviva 742, EEUU 55512",
+            "usuario": "Juan Jesus",
+            "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/juan-jesus_je3jjs.png"
+        },
+        {
+            "id": 3,
+            "nombre": "Rocky",
+            "raza": "Rottweiler",
+            "edad": "4 meses",
+            "personalidad1": "cariñoso",
+            "personalidad2": "inquieto",
+            "personalidad3": "juguetón",
+            "historia": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878718/dog-rocky_psd692.png",
+            "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899457/male_szqd9v.png",
+            "categoria": "perro",
+            "direccion": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "usuario": "María Dolores",
+            "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1650071689/Ellipse_9_3_jx7j7f.png"
+        },
+        {
+            "id": 4,
+            "nombre": "Pelusa",
+            "raza": "Bichón frisé",
+            "edad": "5 meses",
+            "personalidad1": "alegre",
+            "personalidad2": "fiel",
+            "personalidad3": "cariñosa",
+            "historia": "Pelusa proviene de un hogar donde era maltrata por sus dueños y a pesar de eso no es nada violenta y le encantan jugar con niños",
+            "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878719/dog-pelusa_uuz4ek.png",
+            "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899464/female_lqzodc.png",
+            "categoria": "perro",
+            "direccion": "221B Baker Street, EEUU 55512",
+            "usuario": "Juan Jesus",
+            "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/juan-jesus_je3jjs.png"
+        },
+        {
+            "id": 5,
+            "nombre": "Charlie",
+            "raza": "Chihuahua",
+            "edad": "7 meses",
+            "personalidad1": "inteligente",
+            "personalidad2": "confiable",
+            "personalidad3": "juguetón",
+            "historia": "Charlie es un alegre y le gusta mucho la compañia y jugar con otras mascotas",
+            "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878718/dog-charlie_jqlivm.png",
+            "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899457/male_szqd9v.png",
+            "categoria": "perro",
+            "direccion": "Calle Real 45-98, Colombia 45654",
+            "usuario": "María Dolores",
+            "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1650071689/Ellipse_9_3_jx7j7f.png"
+        }
     ],
-
     "cats": [
         {
             "id": 1,
@@ -129,7 +127,7 @@
             "categoria": "gato",
             "direccion": "Av. Charleston 45-12, New Mexico 31134",
             "usuario": "María Dolores",
-            "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/maria-dolores_tyqoar.png"
+            "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1650071689/Ellipse_9_3_jx7j7f.png"
         },
         {
             "id": 4,
@@ -137,8 +135,8 @@
             "raza": "Gato americano",
             "edad": "6 meses",
             "personalidad1": "cariñoso",
-            "personalidad2":  "tierno",
-            "personalidad3":  "juguetón",
+            "personalidad2": "tierno",
+            "personalidad3": "juguetón",
             "historia": "Bombon fue entregado por sus dueños quienes se mudaban a otro pais y no lo podian llevar, es super dulce como su nombre te llenara de amor y no te sentiras solo",
             "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878678/cat-bombom_cql6lv.png",
             "genero": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649899457/male_szqd9v.png",
@@ -146,9 +144,8 @@
             "direccion": "Av. Charleston 45-12, New Mexico 31134",
             "usuario": "Juan Jesus",
             "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/juan-mendez_faov1t.png"
-        }        
+        }
     ],
-
     "usuarios": [
         {
             "imagen": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/juan-mendez_faov1t.png",
@@ -156,27 +153,26 @@
             "apellido": "Méndez",
             "email": "juanmendez@gmail.com",
             "id": 1
-          }
+        }
     ],
-
     "chatCat": [
         {
             "id": 1,
             "mR": "¡Hola! Nos gustaría conocer a Kity y ya luego decidir si la adoptamos",
             "mP": "¡Hola! Qué bueno que te interese adoptar. Programemos entonces para que vengan y la conozcan",
             "r1": "Perfecto, puede ser este sabado en la mañana",
-            "p1": "si, claro entonces ese día kity y yo los esperamos",   
+            "p1": "si, claro entonces ese día kity y yo los esperamos",
             "foto": "https://res.cloudinary.com/dmaviub4l/image/upload/v1649878759/juan-jesus_je3jjs.png",
-            "usuario": "Juan Jesus" 
+            "usuario": "Juan Jesus"
         }
-        
     ],
-    
     "chatDog": [
         {
             "id": 1,
             "mR": "¡Hola! Me encantaría adoptar a Rocky",
-            "mP": "¡Hola! claro, podemos acordar un luar y hora para que conozcas a Rocky"
+            "mP": "¡Hola! claro, podemos acordar un luar y hora para que conozcas a Rocky",
+            "usuario": "María Dolores",
+            "imgusuario": "https://res.cloudinary.com/dmaviub4l/image/upload/v1650071689/Ellipse_9_3_jx7j7f.png"
         }
     ]
 }

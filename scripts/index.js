@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     logo1.style.display = 'flex';
 
     setTimeout(() => {
-        logo1.style.display= 'none';
+        logo1.style.display = 'none';
 
         setTimeout(() => {
             const logo2 = document.querySelector('#img2');

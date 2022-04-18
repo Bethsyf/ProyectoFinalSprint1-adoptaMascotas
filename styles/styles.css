@@ -137,8 +137,280 @@ a:visited , a:focus , a:active, a:link{
 color: var(--white);
 }
 
-a.logo-selected {
+.selection {
 background-color: var(--black);
 border-radius: 20px;
 color: var(--softAquamarine);
 }
+
+/* PERFIL */
+
+.main-profile{
+    height: 350px;
+}
+
+label{
+    display: block;
+    margin: auto;
+}
+
+.profileTitle{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.profileFoto{
+    border-radius: 50%;
+    margin-right: 50%;
+    margin-left: 40%;
+    width: 100px;
+    height: 100px;
+}
+
+.profileNombre{
+    width: max-content;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.btnEditar{
+    background-color: transparent;
+    border: none;
+    width: max-content;;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 2rem;
+    margin-right: 50%;
+    margin-left: 40%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+}
+
+.form-control{
+    border: solid 1px var(--black);
+}
+
+#inputId{
+    display: none;
+}
+
+.enviarProfile{
+    width: max-content;
+    color: var(--white);
+    display:flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    background-color: var(--black);
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+
+#formularioPerfil {
+    width: 450px;
+    margin: auto;
+    visibility: hidden;
+}
+
+.card-img-overlay{
+    display: flex;
+    align-items: flex-end;
+}
+.card-title{
+    width: 100%;
+}
+
+.btnBack{
+    position: relative;
+    margin-left: 4%;    
+    top: 80px;
+    z-index: 1;
+}
+
+.imgPrincipal{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 50px;
+}
+
+
+.circleLike {
+    background-image: url(../images/not-save.png);
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0.25px;
+}
+
+.circlePush {
+    background-image: url(../images/save.png);
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0.25px;
+}
+
+
+.gender {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    display: flex;
+    justify-content: center;    
+    
+}
+
+.address {
+    margin: 24px 24px 0px 0px;
+    font-family:'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    color: var(--gray);
+}
+.ubicacion {
+    width: 24px;
+    height: 24px;
+    margin: 24px 8px 0px 24px;
+}
+
+.titlePersonalidad {
+    margin:32px 10px 8px;
+    font-family:'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.imgPerso {
+    width: 40px;
+    height: 40px;
+}
+
+.conPersonality{
+    display: inline;
+    justify-content: space-between;
+    align-items: center ;
+    width: 100%;
+}
+
+.boxPerso {
+    width: 90px;
+    height: 90px;
+    border: 2px solid var(--purple);
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 8px 10px 8px 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.textPerso {
+    font-family:'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: var(--gray);
+}
+
+.contHistory{
+    padding-bottom: 30px;
+}
+
+.hHistory{
+    margin: 10px 10px;
+    font-family:'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    align-self: stretch;
+    color: var(--black);
+}
+
+.pDetails {
+    margin-top: 8px;
+    font-family:'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--gray);
+    margin-left: 10px;
+    margin-right: 24px;
+}
+
+.userImgDetails{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.subUserDet {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-family:'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.004em;
+    color: var(--gray);
+}
+
+.UserDet {
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-family:'Nunito', sans-serif;
+    color: var(--black);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    letter-spacing: 0.005em;
+}
+
+.btnDetails {
+    width: fit-content;
+    color: var(--white);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 15%;
+    padding-right: 10%;
+    background-color: var(--black);
+    border-radius: 20px;
+    margin-top: 20px;
+    font-family:'Nunito', sans-serif;
+    line-height: 16px;
+    text-decoration: none;    
+}
+
+.detailNav {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+
