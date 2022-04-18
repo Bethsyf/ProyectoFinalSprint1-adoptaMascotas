@@ -4,7 +4,7 @@ const getLocalStorage = () => {
 
   const detalle = JSON.parse(localStorage.getItem("Like"));
   
-  det3.forEach(element => {
+  detalle.forEach(element => {
     const { likeNombre, likeImg, likeRaza, likeId, likeCategoria } = element;
 
       showFav.innerHTML += `
